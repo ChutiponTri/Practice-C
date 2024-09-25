@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    // Modes are 
+    // "a" for keep the existing
+    // "w" for write all
+    // "r" for read
+
+    FILE *pF = fopen("test.txt", "a");              
+
+    fprintf(pF, "\nSpongebob Squarepants");
+
+    fclose(pF);
+
+    if (remove("test.txt") == 0){
+        printf("That file was deleted successfully!\n");
+    } else {
+        printf("That file was NOT deleted\n");
+    }
+
+    return 0;
+}
