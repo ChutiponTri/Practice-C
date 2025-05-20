@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main() {
     // Example 1
     char x = 'x';
     char y = 'y';

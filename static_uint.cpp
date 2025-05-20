@@ -2,7 +2,7 @@
 #include <stdint.h>
 
 
-int main(){
+int main() {
     uint8_t x = -10;
     printf("%d", x);
     return 0;

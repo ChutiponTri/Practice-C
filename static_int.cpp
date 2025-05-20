@@ -5,7 +5,7 @@ int inc_func1(int x) {
     return x++;
 }
 
-void inc_func2(int *px) {
+void inc_func2(int* px) {
     (*px)++;
 }
 int inc_func3() {
@@ -15,10 +15,10 @@ int inc_func3() {
 
 int count = 0;
 int main() {
-    for (int i=0;i<10;i++) {
+    for (int i = 0;i < 10;i++) {
         count = inc_func1(count);
         inc_func2(&count);
         count = inc_func3();
-        printf("%d\n",count);
- }
+        printf("%d\n", count);
+    }
 }

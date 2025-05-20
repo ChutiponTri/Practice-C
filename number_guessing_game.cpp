@@ -12,23 +12,23 @@ int main() {
     srand(time(0));
 
     // Generate random number between MIN - MAX
-    answer = rand() % MAX + MIN;  
+    answer = rand() % MAX + MIN;
 
-    do{
+    do {
         printf("Enrter a guess : ");
         scanf("%d", &guess);
-        if (guess > answer){
+        if (guess > answer) {
             printf("Too High\n");
         }
-        else if (guess < answer){
+        else if (guess < answer) {
             printf("Too Low\n");
         }
         else {
             printf("Correct\n");
         }
-        guesses ++;
+        guesses++;
 
-    }while (guess != answer);
+    } while (guess != answer);
 
     printf("The answer is %d\n", answer);
     printf("You tried %d times\n", guesses);

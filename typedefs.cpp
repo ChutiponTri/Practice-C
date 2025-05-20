@@ -13,9 +13,9 @@ typedef struct {
 int main() {
     user user1 = "Ton";
 
-    Player player1 = {"Ton", "passwor", 123};
+    Player player1 = { "Ton", "passwor", 123 };
 
-    Player player2 = {"Bro", "Code", 5515};
+    Player player2 = { "Bro", "Code", 5515 };
 
     printf("Name: %s\n", player1.name);       // string copy
     printf("Password: %s\n", player1.password);

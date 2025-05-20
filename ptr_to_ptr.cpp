@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int num = 10;
-    int *ptr1 = &num;
-    int **ptr2 = &ptr1; // Pointer to a pointer
+    int* ptr1 = &num;
+    int** ptr2 = &ptr1; // Pointer to a pointer
     printf("num is : %d\n", num);
     printf("address is : %p\n\n", &num);
     printf("ptr1 is : %d\n", *ptr1);

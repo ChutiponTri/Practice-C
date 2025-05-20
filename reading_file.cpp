@@ -6,19 +6,20 @@ int main() {
     // "w" for write all
     // "r" for read
 
-    FILE *pF = fopen("D:\\Practice C\\hello.txt", "r");        
+    FILE* pF = fopen("D:\\Practice C\\hello.txt", "r");
 
     char buf[255];
 
-    if (pF == NULL){
+    if (pF == NULL) {
         printf("Unable to open file\n");
-    } else {
+    }
+    else {
         // Read Multiple Lines
-        while (fgets(buf, 255, pF) != NULL){
-            printf("%s", buf);  
+        while (fgets(buf, 255, pF) != NULL) {
+            printf("%s", buf);
         }
     }
-    
+
     fclose(pF);
 
     return 0;

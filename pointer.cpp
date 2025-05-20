@@ -2,16 +2,16 @@
 
 int result = 10;
 
-int main(){
-    int *p;
-    printf("Address of pointer : %x\n",&p);
+int main() {
+    int* p;
+    printf("Address of pointer : %x\n", &p);
     printf("Pointer Value : %u\n", p);
     printf("Size of poiner : %d byte\n", sizeof(p));
 
     printf("\n");
 
     int i = 5;
-    printf("Address of i : %x\n",&i);
+    printf("Address of i : %x\n", &i);
     printf("i Value : %u\n", i);
     printf("Size of i : %d byte\n", sizeof(i));
 

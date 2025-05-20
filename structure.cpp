@@ -18,7 +18,7 @@ int main() {
     person1.height = 178.0;
 
     // Access and print the values of the members of 'person1'
-    printf("Name: %s\n", person1.name);       // string copy
+    printf("Name: %s\n", person1.name); // string copy
     printf("Age: %d\n", person1.age);
     printf("Height: %.2f\n", person1.height);
 

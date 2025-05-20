@@ -8,18 +8,20 @@ std::string a = "Hello";
 
 float ax;
 
-int main(){
+int main() {
     printf("Hello World\n");
     std::cout << "Hello World\n";
 
 
-    try{
+    try {
         std::cout << "Please Enter Number : ";
         std::cin >> ax;
-    } catch (const std::runtime_error& e) {
+    }
+    catch (const std::runtime_error& e) {
         std::cerr << "Error: " << e.what() << '\n';
         return 1; // Exit with an error code
-    } catch (...) {
+    }
+    catch (...) {
         std::cerr << "An unexpected error occurred.\n";
         return 1; // Exit with an error code
     }

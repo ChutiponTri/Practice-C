@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void printAge(int *pAge){
+void printAge(int* pAge) {
     printf("You are %d years old\n", *pAge);
 }
 
@@ -11,7 +11,7 @@ int main() {
     //       * = indirection operator (value at address)
 
     int age = 21;
-    int *pAge = NULL;
+    int* pAge = NULL;
     pAge = &age;
 
     printf("Address of age: %p\n", &age);

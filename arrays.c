@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(){
-    double prices[] = {5.0, 10.0, 15.0, 25.0, 20.0};
+int main() {
+    double prices[] = { 5.0, 10.0, 15.0, 25.0, 20.0 };
     double some[5];
 
     some[0] = 5.0;

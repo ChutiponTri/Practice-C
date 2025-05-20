@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {    
+int main() {
     // BITWISE OPERATORS = special operators used in bit level programming
     //                     (knowing binary is important for this topic)
 

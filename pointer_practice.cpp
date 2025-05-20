@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int num = 10;
-    int *p = &num;
+    int* p = &num;
     printf("Address of num %x\n", &num);
     printf("Value if num %d\n", num);
     printf("Address of Pointer %p\n", &p);

@@ -14,7 +14,7 @@ int main() {
         "A. Objective C", "B. B", "C. C++", "D. C#"
     };
 
-    char answers[3] = {'B', 'A', 'B'};
+    char answers[3] = { 'B', 'A', 'B' };
 
     int numberOfQuestions = sizeof(questions) / sizeof(questions[0]);
 
@@ -23,10 +23,10 @@ int main() {
 
     printf("Quiz Game\n");
 
-    for (int i=0; i<numberOfQuestions; i++){
+    for (int i = 0; i < numberOfQuestions; i++) {
         printf("%s\n", questions[i]);
 
-        for (int j=(i*4); j<(i*4)+4; j++){
+        for (int j = (i * 4); j < (i * 4) + 4; j++) {
             printf("%s\n", options[j]);
         }
 
@@ -36,10 +36,11 @@ int main() {
 
         guess = toupper(guess); // To Upper (for upper case)
 
-        if (guess == answers[i]){
+        if (guess == answers[i]) {
             printf("Correct\n");
-            score ++;
-        } else {
+            score++;
+        }
+        else {
             printf("Wrong\n");
         }
 

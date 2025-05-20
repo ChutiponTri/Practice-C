@@ -6,15 +6,16 @@ int main() {
     // "w" for write all
     // "r" for read
 
-    FILE *pF = fopen("test.txt", "a");              
+    FILE* pF = fopen("test.txt", "a");
 
     fprintf(pF, "\nSpongebob Squarepants");
 
     fclose(pF);
 
-    if (remove("test.txt") == 0){
+    if (remove("test.txt") == 0) {
         printf("That file was deleted successfully!\n");
-    } else {
+    }
+    else {
         printf("That file was NOT deleted\n");
     }
 
